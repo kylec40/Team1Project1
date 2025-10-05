@@ -1,0 +1,57 @@
+<html>
+<head>
+  <style>
+    body {
+      background-color: #f9f9f9;
+    }
+  .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  }
+  img {
+    border-radius: 8px;
+    width: 100px;
+    length: 120px;
+  }
+    .site-header {
+    display: flex;
+    gap: 20px;
+    color: blue;
+    }
+    h2 {
+      size: 10px;
+      color: blue;
+    }
+</style>
+</head>
+<body>
+  <div class = "site-header">
+  <a href="placeholder">
+    <img src ="logo.png">
+  </a>
+  <h2>Logos Publishing</h2>
+   </div>
+   <h1> Team Members for Team 1</h1>
+  <UL><font face = "sans-serif">
+         <LI><p>Kyle Cuson</p></LI>
+         <LI><p>Daniel Kelly</p>
+         <LI><p>Charles Garrison</p>
+          <LI><p>Shivya Gharekhan</p>
+          <LI><p>Amaan Rokadia</p></LI>
+      </UL>
+  </font>
+  <div class = "footer">
+  <p id = "date"></p>
+  </div>
+  <script>
+const date = new Date(document.lastModified);
+document.getElementById("date").textContent ="Date Modified: " + date;
+</script>
+  
+  
+
+</body>
+</html>
