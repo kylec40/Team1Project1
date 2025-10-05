@@ -1,0 +1,87 @@
+<html>
+<head>
+  <style>
+    body {
+      background-color: #f9f9f9;
+    }
+  .right-box {
+    float: right;
+    width: 300px;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 0 15px 15px;
+    background-color: lightgrey;
+  }
+  .footer {
+    text-align: center;
+    padding: 10px;
+    clear: both;
+  }
+  .footer ol {
+    display: inline-block
+    text-align: left;
+    padding-left: 0;
+    list-style-position: inside;
+  }
+  img {
+    border-radius: 8px;
+    width: 100px;
+    length: 120px;
+  }
+    .site-header {
+    display: flex;
+    gap: 20px;
+    color: blue;
+    }
+    h2 {
+      size: 10px;
+      color: blue;
+    }
+</style>
+</head>
+<body>
+  <div class = "site-header">
+  <a href="placeholder">
+    <img src ="logo.png">
+  </a>
+  <h2>Logos Publishing</h2>
+   </div>
+    <h1>
+      <i><b><font color = "blue"> Company History</font></b></i>
+    </h1>
+    <p> For 40 years, our company has provided the top quality service to those looking to fufill their dreams of becoming an author. From our start as a small bookstore that would help those who have hopes of being a <font face = "Courier New, Courier, monospace"><a href = "https://www.nytimes.com/" target = "_blank"> New York Times bestseller</a></font> to being the fifth largest book publisher in the U.S. We produce 
+      approximately 6,000 new books every year in multiple languages. </p>
+     <div class = "right-box">  
+    <p><b><font color = "gray" size = "4" face = "sans-serif"> Brief Overview </font></b>
+   </p>
+  <UL><font face = "sans-serif">
+         <LI><p>Founded in 1985</p>
+         <LI><p>Helped thousands of authors achieve their dreams</p>
+         <LI><p>Have connections that are designed to help you</p>
+          <LI><p>We want what is best for you</p>
+      </UL>
+  </font>
+  </div>
+      <h2><u>Our Authors</u></h2>
+  <p>   LOGOS cares deeply about its authors and has agents working around the clock to help those who need help in getting their big break and fufilling their dreams.
+  Our award winning staff has helped authors achieve awards like the Pulizter Price and the Booker Prize among others. We are dedicated to making sure 
+  that our authors have the proper help with our deep connections in the book industry to have their dream seen by a large audience.</p>
+  <div class = "footer">
+    <p><b><font color = "gray" size = "2" face = "sans-serif"> Important Links </font></b>
+   </p>
+  <OL><font face = "sans-serif">
+         <LI><a href = "To Do List.docx">A helpful todo list for aspiring authors</a>
+          <LI><a href = "mailto:LOGOSpublishding@gmail.com">Contact Us</a></LI>
+          </OL>
+        </font>
+  <p id = "date"></p>
+  </div>
+  <script>
+const date = new Date(document.lastModified);
+document.getElementById("date").textContent ="Date Modified: " + date;
+</script>
+  
+  
+
+</body>
+</html>
